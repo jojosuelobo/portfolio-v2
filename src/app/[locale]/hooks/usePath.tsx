@@ -1,15 +1,14 @@
 // https://www.youtube.com/watch?v=H_3jZOdMD_E
+"use client";
 
-import { useLocation } from "react-router-dom"
+import { usePathname } from "next/navigation";
 
 export const usePath = () => {
-    const isCurrentPage = (Link: string) => {
-        const { pathName } = useLocation()
+    const pathname = usePathname();
 
-        if (Link === pathName) return true
+    const isCurrentPage = (link: string) => {
+        return link === pathname;
+    };
 
-        return false
-    }
-
-    return { isCurrentPage }
-}
+    return { isCurrentPage };
+};
