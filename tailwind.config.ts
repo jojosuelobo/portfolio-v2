@@ -8,7 +8,8 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      'RED': '#FF3131'
+      'RED': '#FF3131',
+      'HeaderBG': '#F0EFF5'
     },
     extend: {
       backgroundImage: {

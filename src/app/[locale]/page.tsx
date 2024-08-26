@@ -13,7 +13,7 @@ export default async function Home({ params: { locale } } : { params: { locale: 
   return (
     <>
       <TranslationsProvider resources={resources} locale={locale} namespaces={i18nNamespaces}>
-        <Header/>
+        <Header locale={ locale }/>
         <h1>{t("titulo")}</h1>
         <LanguageChanger/>
       </TranslationsProvider>
