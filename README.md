@@ -36,5 +36,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Internationalization 
-[Vídeo referencia](https://youtu.be/J8tnD2BWY28?si=jY_7lvFmr2gLwvcn) e [Documentação](https://i18nexus.com/tutorials/nextjs/react-i18next)
-[i18nexus dashboard](https://app.i18nexus.com/)
+[Vídeo referencia](https://youtu.be/J8tnD2BWY28?si=jY_7lvFmr2gLwvcn) e [Documentação](https://i18nexus.com/tutorials/nextjs/react-i18next) e  [i18nexus dashboard](https://app.i18nexus.com/)
