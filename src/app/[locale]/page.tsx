@@ -14,8 +14,7 @@ export default async function Home({ params: { locale } } : { params: { locale: 
     <>
       <TranslationsProvider resources={resources} locale={locale} namespaces={i18nNamespaces}>
         <Header locale={ locale }/>
-        <h1>{t("titulo")}</h1>
-        <LanguageChanger/>
+        
       </TranslationsProvider>
     </>
   );

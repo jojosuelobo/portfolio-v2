@@ -37,7 +37,7 @@ export default function LanguageChanger() {
   };
 
   return (
-    <select onChange={handleChange} value={currentLocale}>
+    <select onChange={handleChange} value={currentLocale} className='bg-HeaderBG'>
       <option value="pt-BR">Portuguese</option>
       <option value="en">English</option>
     </select>

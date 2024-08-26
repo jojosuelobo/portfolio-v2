@@ -25,15 +25,15 @@ export const Header = async ({ locale } : { locale: any }) => {
             <header className="flex justify-between items-center px-6 py-4 mb-5 bg-HeaderBG">
                 <h2 className="text-RED font-bold text-2xl">Josué Lobo</h2>
                 <nav className="flex gap-6 items-center p-2">
-                    <Link href="/" className={`${isCurrentPage('/') ? current : general}`}>
+                    <Link href="/" className={`${isCurrentPage('/') || isCurrentPage('/en') ? current : general}`}>
                         {t("optionHome")}
                     </Link>
 
-                    <Link href="/" className={`${isCurrentPage('/blog') ? current : general}`}>
+                    <Link href="/" className={`${isCurrentPage('/blog') || isCurrentPage('/en/blog') ? current : general}`}>
                         {t("optionBlog")}
                     </Link>
 
-                    <Link href="/recomendations" className={`${isCurrentPage('/recomendations') ? current : general}`}>
+                    <Link href="/recomendations" className={`${isCurrentPage('/recomendations') || isCurrentPage('/en/recomendations') ? current : general}`}>
                         {t("optionRecomendations")}
                     </Link>
                     <div className="flex gap-4 items-center p-2">
