@@ -10,8 +10,8 @@ import instagram from "@/svg/iconInstagram.svg";
 import youtube from "@/svg/iconYoutube.svg";
 
 export const Header = () => {
-    const general = "text-slate-300";
-    const current = "text-RED font-bold";
+    const general = "text-slate-300 transition duration-300 ease-in-out transform hover:bg-red-500 hover:text-white hover:scale-105";
+    const current = "text-RED font-bold transition duration-300 ease-in-out transform hover:bg-red-500 hover:text-white hover:scale-105";
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false); // Estado para controlar o menu móvel
 
     const { isCurrentPage } = usePath();
@@ -44,19 +44,19 @@ export const Header = () => {
 
                 <div className="flex gap-4 items-center p-2">
                     <Link href="https://www.linkedin.com/in/jojosuelobo/" target="_blank">
-                        <Image src={linkedin} alt="LinkedIn" />
+                        <Image src={linkedin} alt="LinkedIn" className="transition duration-300 ease-in-out transform hover:bg-red-500 hover:text-white hover:scale-105" />
                     </Link>
 
                     <Link href="https://github.com/jojosuelobo" target="_blank">
-                        <Image src={github} alt="Github" />
+                        <Image src={github} alt="Github" className="transition duration-300 ease-in-out transform hover:bg-red-500 hover:text-white hover:scale-105" />
                     </Link>
 
                     <Link href="https://www.instagram.com/jojosuelobo/" target="_blank">
-                        <Image src={instagram} alt="Instagram" />
+                        <Image src={instagram} alt="Instagram" className="transition duration-300 ease-in-out transform hover:bg-red-500 hover:text-white hover:scale-105" />
                     </Link>
 
                     <Link href="https://www.youtube.com/@jojosueloboYT" target="_blank">
-                        <Image src={youtube} alt="Youtube" />
+                        <Image src={youtube} alt="Youtube" className="transition duration-300 ease-in-out transform hover:bg-red-500 hover:text-white hover:scale-105" />
                     </Link>
                 </div>
                 {/* <LanguageChanger /> */}
