@@ -34,7 +34,7 @@ export const Header = () => {
                     Home
                 </Link>
 
-                <Link href="/" className={`${isCurrentPage("/blog") || isCurrentPage("/en/blog") ? current : general}`}>
+                <Link href="https://medium.com/@jojosuelobo" target="_blank" className={`${isCurrentPage("/blog") || isCurrentPage("/en/blog") ? current : general}`}>
                     Blog
                 </Link>
 
