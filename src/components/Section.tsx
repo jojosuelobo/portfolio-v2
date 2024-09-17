@@ -14,10 +14,10 @@ export const Section = () => {
                     </p>
                 </div>
                 <div className="flex flex-col md:flex-row justify-center md:justify-start mt-8 md:mt-16 space-y-4 md:space-y-0 md:space-x-12">
-                    <button className="px-4 py-2 bg-RED rounded-lg transition duration-300 ease-in-out transform hover:bg-white hover:scale-105">
+                    <button className="px-4 py-2 bg-RED rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
                         <p className="text-WHITE p-2 m-1 font-bold">Baixar currículo</p>
                     </button>
-                    <button className="px-4 py-2 text-red-500 border border-RED rounded-lg transition duration-300 ease-in-out transform hover:bg-red-500 hover:text-white hover:scale-105">
+                    <button className="px-4 py-2 text-red-500 border border-RED rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
                         <p className="p-2 m-1 font-bold text-RED">Últimos projetos</p>
                     </button>
                 </div>
