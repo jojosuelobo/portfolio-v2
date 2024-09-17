@@ -10,7 +10,10 @@ export const Section = () => {
                         <span className="text-RED">Josué Lobo</span>, QA, desenvolvedor e analista de dados
                     </h1>
                     <p className="mt-6 md:mt-10 mb-4 text-base text-left">
-                        Apaixonado por tecnologia, especializado em qualidade de software e automação de testes. Com uma formação em Ciência da Computação, pós-graduação em análise de dados e machine learning e com certificação CTFL, tenho sólida experiência em testes manuais e automatizados, bem como em desenvolvimento web e análise de dados e automação web.
+                        Apaixonado por tecnologia, especializado emqualidade de software e automação de testes.
+                        Com uma formação em Ciência da Computação pela Universidade Vila Velha (UVV)
+                        e certificações como CTFL (Certified Tester Foundation Level) pela BSTQB,
+                        trago consigo uma sólida experiência em testes manuais e automatizados, bem como em desenvolvimento web.
                     </p>
                 </div>
                 <div className="flex flex-col md:flex-row justify-center md:justify-start mt-8 md:mt-16 space-y-4 md:space-y-0 md:space-x-12">
