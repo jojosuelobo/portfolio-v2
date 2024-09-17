@@ -20,7 +20,11 @@ export const Header = () => {
 
         <header className="flex flex-col md:flex-row justify-between items-center px-6 py-4 mb-5 bg-GRAY">
             <div className="flex justify-between w-full md:w-auto items-center">
-                <h2 className="text-RED font-bold text-2xl">Josué Lobo</h2>
+                <h2 className="text-RED font-bold text-2xl px-4 py-2 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
+                    <Link href="/">
+                        Josué Lobo
+                    </Link>
+                </h2>
                 <button
                     className="md:hidden text-white"
                     onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
