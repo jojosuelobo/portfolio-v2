@@ -6,15 +6,40 @@ import conexos from '@/images/experienceImages/conexos.webp';
 import uvv from '@/images/experienceImages/uvv.svg';
 import ctfl from '@/images/experienceImages/ctfl.svg';
 
+import js from '@/images/stacks/js.svg';
+
 export const Experience = () => {
+    
     return (
         <section className="flex">
             {/* Texto fixo da jornada */}
-            <div className="w-1/2 flex flex-col justify-center items-center sticky top-0 h-full bg-gray-100 mt-24 p-12"> 
+            <div className="w-1/2 flex flex-col justify-center items-center sticky top-0 h-full bg-gray-100 mt-24 p-12">
                 <h1 className="text-4xl font-bold mb-4">Minha jornada como QA</h1>
                 <h2 className="text-lg text-center px-8">
                     Ferramentas e stacks que utilizei, ao longo da minha carreira:
                 </h2>
+                <ul className="grid grid-cols-3 gap-12 mt-8">
+                    <li className="grid place-items-center ">
+                        <Image src={js} alt="Javascript" className="w-12 h-12" />
+                        <p>JAVASCRIPTO</p>
+                    </li>
+                    <li className="grid place-items-center ">
+                        <Image src={js} alt="Javascript" className="w-12 h-12" />
+                        <p>JAVASCRIPTO</p>
+                    </li>
+                    <li className="grid place-items-center ">
+                        <Image src={js} alt="Javascript" className="w-12 h-12" />
+                        <p>JAVASCRIPTO</p>
+                    </li>
+                    <li className="grid place-items-center ">
+                        <Image src={js} alt="Javascript" className="w-12 h-12" />
+                        <p>JAVASCRIPTO</p>
+                    </li>
+                    <li className="grid place-items-center ">
+                        <Image src={js} alt="Javascript" className="w-12 h-12" />
+                        <p>JAVASCRIPTO</p>
+                    </li>
+                </ul>
             </div>
 
             {/* Lista de empresas rolável */}
@@ -27,12 +52,12 @@ export const Experience = () => {
                             <p className="text-sm">...</p>
                         </div>
                         <div className="flex items-center justify-center w-full h-full">
-                            <Image src={softwareMind} alt="softwareMind" className="w-52"/>
+                            <Image src={softwareMind} alt="softwareMind" className="w-52" />
                         </div>
                     </li>
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
                         <div className="flex items-center justify-center w-full h-full">
-                            <Image src={octuspay} alt="octuspay" className="w-32"/>
+                            <Image src={octuspay} alt="octuspay" className="w-32" />
                         </div>
                         <div className="w-full">
                             <h2 className="text-2xl font-semibold">Octuspay</h2>
@@ -50,18 +75,18 @@ export const Experience = () => {
                             <h2 className="text-2xl font-semibold">Certificação CTFL</h2>
                             <h3 className="text-lg">ISTQB - International Software Testing Qualifications Board</h3>
                             <p className="text-sm">
-                                Conquistei a certificação CTFL, pela BSTQB. Foram semanas de dedicação aos estudos e preparação para esse momento. 
-                                Esta conquista representa não apenas um reconhecimento do meu conhecimento em testes de software, 
-                                mas também um marco significativo na minha trajetória profissional. 
+                                Conquistei a certificação CTFL, pela BSTQB. Foram semanas de dedicação aos estudos e preparação para esse momento.
+                                Esta conquista representa não apenas um reconhecimento do meu conhecimento em testes de software,
+                                mas também um marco significativo na minha trajetória profissional.
                             </p>
                         </div>
                         <div className="flex items-center justify-center h-full w-full">
-                            <Image src={ctfl} alt="ctfl" className="w-64"/>
+                            <Image src={ctfl} alt="ctfl" className="w-64" />
                         </div>
                     </li>
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
                         <div className="flex items-center justify-center w-full h-full">
-                            <Image src={etaure} alt="etaure" className="w-32"/>
+                            <Image src={etaure} alt="etaure" className="w-32" />
                         </div>
                         <div>
                             <h2 className="text-2xl font-semibold">ETAURE</h2>
@@ -86,12 +111,12 @@ export const Experience = () => {
                             </p>
                         </div>
                         <div className="flex items-center justify-center w-full h-full">
-                            <Image src={conexos} alt="conexos" className="w-64"/>
+                            <Image src={conexos} alt="conexos" className="w-64" />
                         </div>
                     </li>
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
                         <div className="flex items-center justify-center w-full h-full">
-                            <Image src={uvv} alt="uvv" className="w-72"/>
+                            <Image src={uvv} alt="uvv" className="w-72" />
                         </div>
                         <div>
                             <h2 className="text-2xl font-semibold">Graduação em Ciência da Computação</h2>
