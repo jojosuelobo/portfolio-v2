@@ -26,15 +26,15 @@ export const Experience = () => {
                             <h3 className="text-lg">QA Automation Engineer</h3>
                             <p className="text-sm">...</p>
                         </div>
-                        <div className="flex items-center justify-center w-32 h-32">
-                            <Image src={softwareMind} alt="softwareMind" />
+                        <div className="flex items-center justify-center w-full h-full">
+                            <Image src={softwareMind} alt="softwareMind" className="w-52"/>
                         </div>
                     </li>
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
-                        <div className="flex items-center justify-center w-24 h-24">
-                            <Image src={octuspay} alt="octuspay" />
+                        <div className="flex items-center justify-center w-full h-full">
+                            <Image src={octuspay} alt="octuspay" className="w-32"/>
                         </div>
-                        <div>
+                        <div className="w-full">
                             <h2 className="text-2xl font-semibold">Octuspay</h2>
                             <h3 className="text-lg">Analista de QA</h3>
                             <p className="text-sm">
@@ -55,13 +55,13 @@ export const Experience = () => {
                                 mas também um marco significativo na minha trajetória profissional. 
                             </p>
                         </div>
-                        <div className="flex items-center justify-center">
-                            <Image src={ctfl} alt="ctfl" />
+                        <div className="flex items-center justify-center h-full w-full">
+                            <Image src={ctfl} alt="ctfl" className="w-64"/>
                         </div>
                     </li>
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
-                        <div className="flex items-center justify-center w-24 h-24">
-                            <Image src={etaure} alt="etaure" />
+                        <div className="flex items-center justify-center w-full h-full">
+                            <Image src={etaure} alt="etaure" className="w-32"/>
                         </div>
                         <div>
                             <h2 className="text-2xl font-semibold">ETAURE</h2>
@@ -85,13 +85,13 @@ export const Experience = () => {
                                 a ferramenta Ghost Inspector.
                             </p>
                         </div>
-                        <div className="flex items-center justify-center">
-                            <Image src={conexos} alt="conexos" />
+                        <div className="flex items-center justify-center w-full h-full">
+                            <Image src={conexos} alt="conexos" className="w-64"/>
                         </div>
                     </li>
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
-                        <div className="flex items-center justify-center">
-                            <Image src={uvv} alt="uvv" />
+                        <div className="flex items-center justify-center w-full h-full">
+                            <Image src={uvv} alt="uvv" className="w-72"/>
                         </div>
                         <div>
                             <h2 className="text-2xl font-semibold">Graduação em Ciência da Computação</h2>
