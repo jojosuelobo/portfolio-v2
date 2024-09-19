@@ -9,6 +9,9 @@ import github from "@/svg/iconGithub.svg";
 import instagram from "@/svg/iconInstagram.svg";
 import youtube from "@/svg/iconYoutube.svg";
 
+import open from "@/svg/open.svg";
+import close from "@/svg/close.svg";
+
 export const Header = () => {
     const general = "text-black transition duration-300 ease-in-out transform hover:font-bold hover:scale-105 hover:rounded ";
     const current = "text-RED font-bold transition duration-300 ease-in-out transform hover:font-bold hover:scale-105 hover:rounded ";
@@ -29,7 +32,7 @@ export const Header = () => {
                     className="md:hidden text-white"
                     onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
                 >
-                    {isMobileMenuOpen ? <a>Fechar</a> : <a>Abrir</a>}
+                    {isMobileMenuOpen ? <Image src={close} alt="Fechar" className="w-12 h-w-12"/> : <Image src={open} alt="Abrir" className="w-12 h-w-12"/>}
                 </button>
             </div>
 
