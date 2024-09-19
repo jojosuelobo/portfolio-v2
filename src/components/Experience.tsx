@@ -7,9 +7,17 @@ import uvv from '@/images/experienceImages/uvv.svg';
 import ctfl from '@/images/experienceImages/ctfl.svg';
 
 import js from '@/images/stacks/js.svg';
+import react from '@/images/stacks/React.svg';
+import next from '@/images/stacks/next.svg';
+import cypress from '@/images/stacks/Cypress.svg';
+import selenium from '@/images/stacks/Selenium.svg';
+import git from '@/images/stacks/git.svg';
+import python from '@/images/stacks/python.svg';
+import sql from '@/images/stacks/sql.svg';
+import html from '@/images/stacks/html.svg';
 
 export const Experience = () => {
-    
+
     return (
         <section className="flex">
             {/* Texto fixo da jornada */}
@@ -21,23 +29,39 @@ export const Experience = () => {
                 <ul className="grid grid-cols-3 gap-12 mt-8">
                     <li className="grid place-items-center ">
                         <Image src={js} alt="Javascript" className="w-12 h-12" />
-                        <p>JAVASCRIPTO</p>
+                        <p>Javascript</p>
                     </li>
                     <li className="grid place-items-center ">
-                        <Image src={js} alt="Javascript" className="w-12 h-12" />
-                        <p>JAVASCRIPTO</p>
+                        <Image src={react} alt="React" className="w-12 h-12" />
+                        <p>React</p>
                     </li>
                     <li className="grid place-items-center ">
-                        <Image src={js} alt="Javascript" className="w-12 h-12" />
-                        <p>JAVASCRIPTO</p>
+                        <Image src={next} alt="NextJS" className="w-12 h-12" />
+                        <p>NextJS</p>
                     </li>
                     <li className="grid place-items-center ">
-                        <Image src={js} alt="Javascript" className="w-12 h-12" />
-                        <p>JAVASCRIPTO</p>
+                        <Image src={cypress} alt="Cypress" className="w-12 h-12" />
+                        <p>Cypress</p>
                     </li>
                     <li className="grid place-items-center ">
-                        <Image src={js} alt="Javascript" className="w-12 h-12" />
-                        <p>JAVASCRIPTO</p>
+                        <Image src={selenium} alt="Selenium" className="w-12 h-12" />
+                        <p>Selenium</p>
+                    </li>
+                    <li className="grid place-items-center ">
+                        <Image src={git} alt="Git" className="w-12 h-12" />
+                        <p>Git</p>
+                    </li>
+                    <li className="grid place-items-center ">
+                        <Image src={html} alt="html" className="w-12 h-12" />
+                        <p>HTML e CSS</p>
+                    </li>
+                    <li className="grid place-items-center ">
+                        <Image src={python} alt="python" className="w-12 h-12" />
+                        <p>Python</p>
+                    </li>
+                    <li className="grid place-items-center ">
+                        <Image src={sql} alt="sql" className="w-12 h-12" />
+                        <p>SQL</p>
                     </li>
                 </ul>
             </div>
