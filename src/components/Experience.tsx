@@ -3,32 +3,37 @@ import softwareMind from '@/images/experienceImages/softwareMind.svg';
 import octuspay from '@/images/experienceImages/octuspay.svg';
 import etaure from '@/images/experienceImages/etaure.svg';
 import conexos from '@/images/experienceImages/conexos.webp';
+import uvv from '@/images/experienceImages/uvv.svg';
+import ctfl from '@/images/experienceImages/ctfl.svg';
 
 export const Experience = () => {
     return (
         <section className="flex w-screen h-screen">
             {/* Texto fixo da jornada */}
             <div className="w-1/2 flex flex-col justify-center items-center sticky top-0 h-screen bg-gray-100">
-                <h1 className="text-4xl font-bold mb-4">Minha jornada como Dev</h1>
-                <p className="text-lg text-center px-8">
-                    Iniciei minha jornada profissional na VilaApps, onde tive meu primeiro contato com programação. Desde então, passei por várias empresas, aprimorando minhas habilidades e contribuindo para diversos projetos significativos.
-                </p>
+                <h1 className="text-4xl font-bold mb-4">Minha jornada como QA</h1>
+                <h2 className="text-lg text-center px-8">
+                    Ferramentas e stacks que utilizei, ao longo da minha carreira:
+                </h2>
             </div>
 
             {/* Lista de empresas rolável */}
             <div className="w-1/2 overflow-y-auto h-screen">
                 <ul className="py-8 p-6 m-12">
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-4">
-                        <div className="flex items-center justify-center w-32 h-32">
-                            <Image src={softwareMind} alt="softwareMind" />
-                        </div>
                         <div>
                             <h2 className="text-2xl font-semibold">Software Mind</h2>
                             <h3 className="text-lg">QA Automation Engineer</h3>
                             <p className="text-sm">...</p>
                         </div>
+                        <div className="flex items-center justify-center w-32 h-32">
+                            <Image src={softwareMind} alt="softwareMind" />
+                        </div>
                     </li>
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
+                        <div className="flex items-center justify-center w-24 h-24">
+                            <Image src={octuspay} alt="octuspay" />
+                        </div>
                         <div>
                             <h2 className="text-2xl font-semibold">Octuspay</h2>
                             <h3 className="text-lg">Analista de QA</h3>
@@ -39,8 +44,19 @@ export const Experience = () => {
                                 automatizados e unitários para a aplicação.
                             </p>
                         </div>
-                        <div className="flex items-center justify-center w-24 h-24">
-                            <Image src={octuspay} alt="octuspay" />
+                    </li>
+                    <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
+                        <div>
+                            <h2 className="text-2xl font-semibold">Certificação CTFL</h2>
+                            <h3 className="text-lg">ISTQB - International Software Testing Qualifications Board</h3>
+                            <p className="text-sm">
+                                Conquistei a certificação CTFL, pela BSTQB. Foram semanas de dedicação aos estudos e preparação para esse momento. 
+                                Esta conquista representa não apenas um reconhecimento do meu conhecimento em testes de software, 
+                                mas também um marco significativo na minha trajetória profissional. 
+                            </p>
+                        </div>
+                        <div className="flex items-center justify-center">
+                            <Image src={ctfl} alt="ctfl" />
                         </div>
                     </li>
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
@@ -69,8 +85,21 @@ export const Experience = () => {
                                 a ferramenta Ghost Inspector.
                             </p>
                         </div>
-                        <div className="flex items-center justify-center w-24 h-24">
+                        <div className="flex items-center justify-center">
                             <Image src={conexos} alt="conexos" />
+                        </div>
+                    </li>
+                    <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-12">
+                        <div className="flex items-center justify-center">
+                            <Image src={uvv} alt="uvv" />
+                        </div>
+                        <div>
+                            <h2 className="text-2xl font-semibold">Graduação em Ciência da Computação</h2>
+                            <h3 className="text-lg">Universidade Vila Velha (UVV)</h3>
+                            <p className="text-sm">
+                                Graduado em Ciência da Computação, onde desenvolvi sólidas habilidades em programação, análise de dados e resolução de problemas.
+                                Engajado em projetos práticos e colaborativos, aprimorei minha capacidade de inovar e trabalhar em equipe.
+                            </p>
                         </div>
                     </li>
                 </ul>
