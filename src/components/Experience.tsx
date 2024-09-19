@@ -8,9 +8,9 @@ import ctfl from '@/images/experienceImages/ctfl.svg';
 
 export const Experience = () => {
     return (
-        <section className="flex w-screen h-screen">
+        <section className="flex">
             {/* Texto fixo da jornada */}
-            <div className="w-1/2 flex flex-col justify-center items-center sticky top-0 h-screen bg-gray-100">
+            <div className="w-1/2 flex flex-col justify-center items-center sticky top-0 h-full bg-gray-100 mt-24 p-12"> 
                 <h1 className="text-4xl font-bold mb-4">Minha jornada como QA</h1>
                 <h2 className="text-lg text-center px-8">
                     Ferramentas e stacks que utilizei, ao longo da minha carreira:
@@ -18,7 +18,7 @@ export const Experience = () => {
             </div>
 
             {/* Lista de empresas rolável */}
-            <div className="w-1/2 overflow-y-auto h-screen">
+            <div className="w-1/2 overflow-y-auto h-full">
                 <ul className="py-8 p-6 m-12">
                     <li className="grid grid-cols-2 items-center px-8 mb-6 space-x-4">
                         <div>

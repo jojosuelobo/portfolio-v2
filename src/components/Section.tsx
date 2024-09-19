@@ -4,6 +4,7 @@ import profile from "@/images/profilePic.png";
 export const Section = () => {
     return (
         <section className="flex flex-col md:flex-row items-center justify-center text-center gap-12 md:gap-24 mt-12 p-4">
+            {/* flex flex-col md:flex-row items-center justify-center text-center gap-12 md:gap-24 mt-12 p-4 h-screen */}
             <div className="max-w-lg">
                 <div>
                     <h1 className="text-3xl md:text-4xl font-bold text-left">
