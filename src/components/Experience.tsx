@@ -26,7 +26,7 @@ export const Experience = () => {
                 <h2 className="text-base lg:text-lg text-center px-4 lg:px-8">
                     Ferramentas e stacks que utilizei ao longo da minha carreira:
                 </h2>
-                <ul className="grid grid-cols-3 gap-4 lg:gap-8 mt-4 lg:mt-8">
+                <ul className="grid grid-cols-3 gap-12 lg:gap-20 mt-4 lg:mt-16">
                     <li className="grid place-items-center">
                         <Image src={js} alt="Javascript" className="w-10 h-10 lg:w-12 lg:h-12" />
                         <p>Javascript</p>
